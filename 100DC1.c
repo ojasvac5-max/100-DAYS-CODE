@@ -1,4 +1,4 @@
-// Q1: Write a program to input two numbers and display their sum.
+// Q2: Write a program to input two numbers and display their sum, difference, product, and quotient.
 #include<stdio.h>
 
 int main(){
