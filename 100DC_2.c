@@ -1,13 +1,15 @@
-// Q3: Write a program to calculate the area and perimeter of a rectangle given its length and breadth.
+// Q2: Write a program to input two numbers and display their sum, difference, product, and quotient.
 #include<stdio.h>
 
 int main(){
-   int a , b ; 
-    printf("ENTER THE LENGTH :\n ");
+    int a,b;
+    printf("ENTER FIRST NUMBER : ");
     scanf("%d" , &a);
-    printf("ENTER THE BREADTH :\n ");
+    printf("ENTER SECOND NUMBER : ");
     scanf("%d" , &b);
-    printf("THE PERIMETER IS :%d\n" , 2*(a+b) );
-    printf("THE AREA IS :%d\n" , a*b );
+    printf("SUM: %d\n" , a+b  );
+    printf("DIFF: %d\n" , a-b  );
+    printf("PRODUCT : %d\n" , a*b );
+    printf("QUOTIENT : %d\n" , a%b  );
     return 0;
 }
