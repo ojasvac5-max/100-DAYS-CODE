@@ -7,7 +7,7 @@ int main(){
     scanf("%d" , &a);
     printf("ENTER THE BREADTH :\n ");
     scanf("%d" , &b);
-    printf("THE PERIMETER IS :%d\n" , 2*(a+b) );
+    printf("THE PERIMETER IS :%d\n" , 2*(a+b));
     printf("THE AREA IS :%d\n" , a*b );
     return 0;
 }
