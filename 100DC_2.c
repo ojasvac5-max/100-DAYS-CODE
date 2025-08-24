@@ -11,5 +11,4 @@ int main(){
     printf("DIFF: %d\n" , a-b  );
     printf("PRODUCT : %d\n" , a*b );
     printf("QUOTIENT : %d\n" , a%b  );
-    return 0;
-}
+    return 0;}
