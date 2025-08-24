@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 int main(){
-    int a , b , i;
+    int a,b,i;
     printf("ENTER THE VALUE OF a:");
     scanf("%d",&a);
     printf("ENTER THE VALUE OF b:");
