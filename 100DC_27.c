@@ -3,10 +3,10 @@
 #include<stdio.h>
 
 int main(){
-    int i , n , sum;
+    int i , n , sum , count;
     printf("ENTER THE NUMBER : ");
     scanf("%d" , &n);
-for(i=0;i<=n;i++){
+for(i=1,count=0 ; count<n ; i+=2,count++){
 sum += i;
 }
 printf("THE SUM IS : %d" , sum);
