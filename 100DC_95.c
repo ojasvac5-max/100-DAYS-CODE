@@ -1,3 +1,6 @@
+// Q95: Check if one string is a rotation of another.
+
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
